@@ -7,15 +7,15 @@
 
 
 header{
-    position: absolute;
+    position:absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: auto;
-    display: flex;
+    height:auto;
+    display:flex;
     justify-content: space-between;
     align-items: center;
-    padding: 40px 100px;
+    padding: 10px 100px;
     z-index: 1000; 
 }
 
@@ -46,14 +46,16 @@ header{
     animation: moveInleft;
     animation-duration: 4s;
     animation-timing-function: ease-out;
+   
 }
 
 .banner .content{
     max-width: 550px;
+   
 }
 
 .banner .content h2{
-    font-size: 2.5em;
+    font-size: 2.4em;
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 0.1em;
@@ -62,14 +64,18 @@ header{
     animation: moveInleft;
     animation-duration: 4s;
     animation-timing-function: ease-out;
+    flex-direction: column;
+    flex: auto;
 }
 
 .banner .content h2 #cool{
     font-weight: 1000;
    transition: all 3s ease-in-out;
    transform: rotate(360deg);
-   font-size: 1.1em;
+   font-size: 1.2em;
    color:rgb(52,69,92);
+   flex-direction: column;
+   flex: auto;
 }
 
 @keyframes moveInleft {
@@ -128,7 +134,7 @@ header{
     display: inline-flex;
     justify-content: flex-start;
     align-items: center;
-    color:rgb(255,193,7);
+    color:white;
     text-transform: uppercase;
     font-weight: 500;
     text-decoration: none;
@@ -160,10 +166,13 @@ header{
     transform: scale(0.6);
 }
 
-@media (max-width: 991px)
+
+
+@media (max-width: 769px)
 {
     header{
         padding: 20px 50px;
+        flex-direction: column;
     } 
 
     header{
@@ -182,17 +191,17 @@ header{
         padding: 100px 50px;
     }
 
-    .benner .content h2{
+    .banner .content h2{
         text-transform: uppercase;
         font-weight: 400;
         font-size: 2em;
         letter-spacing: 0.05em;
-        color: #fff;
+        color:rgb(255,193,7);
     }
 
-    .benner .content p{
+    .banner .content p{
         font-size: 1em;
-        color: red;
+        color:rgb(52,69,92);
     }
 
     .slide{
@@ -220,6 +229,9 @@ header{
         margin: 0 5px;
     }
     
-
+    .play{
+        color:rgb(255,193,7)
+    }
+   
    
 }
