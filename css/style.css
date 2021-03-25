@@ -31,11 +31,12 @@ header{
     position: relative;
     width: 100%;
     min-height: 100vh;
-    padding: 0 55px;
-    background-image: url("https://images.unsplash.com/photo-1505373877841-8d25f7d46678?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1000&q=80");
+    padding: 0 70px;
+    background-image: url("https://www.sli.do/build/img/solution/allhands-meetings/slido-allhands-hero@1600-1499eec36377dae0d9811c346bb96975.jpg");
     background-position:right;
     background-repeat: no-repeat;
     background-size: contain;
+    background-size: auto 100%;
     background-color: rgb(90,136,188);
     display: flex;
     justify-content: flex-start;
@@ -123,7 +124,7 @@ header{
     display: inline-flex;
     justify-content: flex-start;
     align-items: center;
-    color:rgb(52,69,92);
+    color:rgb(255,193,7);
     text-transform: uppercase;
     font-weight: 500;
     text-decoration: none;
@@ -187,6 +188,7 @@ header{
 
     .benner .content p{
         font-size: 1em;
+        color: black;
     }
 
     .slide{
