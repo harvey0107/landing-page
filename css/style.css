@@ -93,7 +93,7 @@ header{
     font-weight: 400;
     letter-spacing: 0.01em;
     line-height: 1.5em;
-    color:rgb(52,69,92);
+    color:white;
     margin: 15px 0 35px;
     animation: moveInleft;
     animation-duration: 4s;
