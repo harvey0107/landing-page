@@ -237,6 +237,20 @@ header{
     flex: auto;
 }
 
+.place .content-place h3{
+    font-size: 1.2em;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: rgb(90,136,188);
+    -webkit-text-stroke-width: .1px;
+    animation: moveInleft;
+    animation-duration: 4s;
+    animation-timing-function: ease-out;
+    flex-direction: column;
+    flex: auto;
+}
+
 .place .content-place #span-place{
     font-weight: 1000;
    transition: all 3s ease-in-out;
