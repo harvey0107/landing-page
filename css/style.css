@@ -41,7 +41,9 @@ header{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-
+    animation: moveInleft;
+    animation-duration: 4s;
+    animation-timing-function: ease-out;
 }
 
 .banner .content{
@@ -86,12 +88,12 @@ header{
 
 .banner .content p{
     font-size: 1.2em;
-    font-weight: 300;
+    font-weight: 400;
     letter-spacing: 0.01em;
     line-height: 1.5em;
-    color: white;
+    color:rgb(52,69,92);
     margin: 15px 0 35px;
-    animation: moveInRight;
+    animation: moveInleft;
     animation-duration: 4s;
     animation-timing-function: ease-out;
 
@@ -135,7 +137,7 @@ header{
 
 .sci{
     position: absolute;
-    top: 50%;
+    top: 60%;
     transform: translateY(-50%);
     right: 20px;
     justify-content: center;
@@ -188,7 +190,7 @@ header{
 
     .benner .content p{
         font-size: 1em;
-        color: black;
+        color: red;
     }
 
     .slide{
