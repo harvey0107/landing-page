@@ -30,12 +30,12 @@ header{
 
 .banner{
     position: relative;
-    width: 100%;
+    width: 110%;
     height: 100%;
     min-height: 100vh;
     padding: 0 70px;
-    background-image: url("https://www.sli.do/build/img/solution/allhands-meetings/slido-allhands-hero@1600-1499eec36377dae0d9811c346bb96975.jpg");
-    background-position:right;
+    background-image: url("https://dealflowevents.com/wp-content/uploads/2019/08/spac20-hero-banner_v2_dfe.jpg") , url("https://images.squarespace-cdn.com/content/v1/52e00f18e4b0a3cec6b7344e/1483985069224-PYY53MGRXBC92MSKYB6Z/ke17ZwdGBToddI8pDm48kKAwwdAfKsTlKsCcElEApLR7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UegTYNQkRo-Jk4EWsyBNhwKrKLo5CceA1-Tdpfgyxoog5ck0MD3_q0rY3jFJjjoLbQ/image-asset.jpeg");
+    background-position:left , right;
     background-repeat: no-repeat;
     background-size: contain;
     background-size: auto 100%;
@@ -46,6 +46,8 @@ header{
     animation: moveInleft;
     animation-duration: 4s;
     animation-timing-function: ease-out;
+    object-fit: contain
+    ;
    
 }
 
@@ -201,7 +203,7 @@ header{
 
     .banner .content p{
         font-size: 1em;
-        color:rgb(52,69,92);
+        color:white;
     }
 
     .slide{
