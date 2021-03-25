@@ -233,5 +233,8 @@ header{
         color:rgb(255,193,7)
     }
    
-   
+   video{
+       width:230px;
+       height:190px;
+   }
 }
