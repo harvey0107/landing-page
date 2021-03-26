@@ -279,12 +279,11 @@ header{
     border-radius: 10px
 }
 
-
 .gallery-speaker {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(8, 5vw);
-    grid-gap: 15px;
+    grid-gap: 10px 10px;
 }
 
 .gallery__img {
@@ -444,5 +443,17 @@ header{
    video{
        width: 300px;
        height:200px;
+   }
+
+   .gallery-speaker {
+       flex-direction: column;
+   }
+   .gallery__img {
+       flex-direction: column;
+
+   }
+   .gallery__item--1{
+    flex-direction: column;
+
    }
 }
