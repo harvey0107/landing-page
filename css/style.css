@@ -58,15 +58,17 @@ header{
 .content-footer{
     background-image: url("https://dealflowevents.com/wp-content/uploads/2019/08/spac20-hero-banner_v2_dfe.jpg");
     background-repeat: repeat-x;
-    height: 30px;
+    height: 20px;
     position: relative;
+    padding: 40px;
 }
 
 .content-footer h6{
-    position: relative;
+    display: flex;
     align-items: center;
     justify-content:center;
     color: white;
+    vertical-align: bottom;
 }
 
 .banner .content{
