@@ -5,17 +5,10 @@
     box-sizing: border-box;
 }
 
-.navbar{
-    justify-content: center;
-    align-items: center;
-    display: flex;
-}
 
 .navbar .nav-link{
     color: white;
     font-size: 1em;
-    
-    
 }
 
 header{
@@ -42,30 +35,54 @@ header{
 
 .banner{
     position: relative;
-    width: 110%;
+    width: 100%;
     height: 100%;
     min-height: 100vh;
-    padding: 0 70px;
+    padding: 0 50px;
     background-image: url("https://dealflowevents.com/wp-content/uploads/2019/08/spac20-hero-banner_v2_dfe.jpg") , url("https://images.squarespace-cdn.com/content/v1/52e00f18e4b0a3cec6b7344e/1483985069224-PYY53MGRXBC92MSKYB6Z/ke17ZwdGBToddI8pDm48kKAwwdAfKsTlKsCcElEApLR7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UegTYNQkRo-Jk4EWsyBNhwKrKLo5CceA1-Tdpfgyxoog5ck0MD3_q0rY3jFJjjoLbQ/image-asset.jpeg");
     background-position: left , right;
     background-repeat: no-repeat;
     background-size: contain;
     background-size: auto 100%;
-    background-color: rgb(90,136,188);
-    display: flex;
+    background-color: white;
+    display:grid;
     justify-content: flex-start;
     align-items: center;
     animation: moveInleft;
     animation-duration: 4s;
     animation-timing-function: ease-out;
-    object-fit: contain
-    ;
+    object-fit: contain;
    
 }
 
+.content-footer{
+    background-image: url("https://dealflowevents.com/wp-content/uploads/2019/08/spac20-hero-banner_v2_dfe.jpg");
+    background-repeat: repeat-x;
+    height: 30px;
+    position: relative;
+}
+
+.content-footer h6{
+    position: relative;
+    align-items: center;
+    justify-content:center;
+    color: white;
+}
+
 .banner .content{
-    max-width: 550px;
+    max-width: 440px;
    
+}
+
+.banner .content .btn-group{
+    display:flexbox;
+}
+
+
+.banner .content .btn-group .btn{
+    padding: 13px 10px;
+    font-size: 20px;
+    border-radius: 10px
 }
 
 .banner .content h2{
@@ -82,6 +99,8 @@ header{
     flex: auto;
 }
 
+
+
 .banner .content h2 #cool{
     font-weight: 1000;
    transition: all 3s ease-in-out;
@@ -91,6 +110,8 @@ header{
    flex-direction: column;
    flex: auto;
 }
+
+
 
 @keyframes moveInleft {
     0%{
@@ -145,7 +166,7 @@ header{
 
 .play {
     position: relative;
-    display: inline-flex;
+    display: block;
     justify-content: flex-start;
     align-items: center;
     color:white;
@@ -188,7 +209,6 @@ header{
     height: 100%;
     min-height: 100vh;
     padding: 0 70px;
-    background-position: left;
     background-repeat: no-repeat;
     background-size: contain;
     background-size: auto 100%;
@@ -205,7 +225,7 @@ header{
 }
 
 .speaker .content-speaker{
-    max-width: 550px;
+    max-width: 440px;
    
 }
 
@@ -248,87 +268,17 @@ header{
 
 }
 
-
-.place{
-    position: relative;
-    width: 110%;
-    height: 100%;
-    min-height: 100vh;
-    padding: 0 70px;
-    background-image: url("https://media.gowallpaper.co.uk/media/catalog/product/r/a/rasch_highlands_grain_texture_off_white_wallpaper_-_550009.jpg"), url('https://meyersassociates.com/wp-content/uploads/2016/06/Westchester-Country-Club-Main-Clubhouse-by-David-Meyers.jpg');
-    background-position: left, right;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-size: auto 100%;
-    background-color: rgb(253,244,229);
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    animation: moveInleft;
-    animation-duration: 4s;
-    animation-timing-function: ease-out;
-    object-fit: contain
-    ;
+.speaker .content-speaker .btn-group{
+    display:flex;
 }
 
 
-
-.place .content-place{
-    max-width: 550px;
-   
+.speaker .content-speaker .btn-group .btn{
+    padding: 10px 10px;
+    font-size: 13px;
+    border-radius: 10px
 }
 
-.place .content-place h2{
-    font-size: 2.2em;
-    font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    color: rgb(90,136,188);
-    -webkit-text-stroke-width: .1px;
-    animation: moveInleft;
-    animation-duration: 4s;
-    animation-timing-function: ease-out;
-    flex-direction: column;
-    flex: auto;
-}
-
-.place .content-place h3{
-    font-size: 1.2em;
-    font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    color: rgb(90,136,188);
-    -webkit-text-stroke-width: .1px;
-    animation: moveInleft;
-    animation-duration: 4s;
-    animation-timing-function: ease-out;
-    flex-direction: column;
-    flex: auto;
-}
-
-.place .content-place #span-place{
-    font-weight: 1000;
-   transition: all 3s ease-in-out;
-   transform: rotate(360deg);
-   font-size: 1.2em;
-   color:rgb(52,69,92);
-   flex-direction: column;
-   flex: auto;
-}
-
-
-.place .content-place p{
-    font-size: 1.2em;
-    font-weight: 400;
-    letter-spacing: 0.01em;
-    line-height: 1.5em;
-    color:rgb(52,69,92);
-    margin: 35px 0 15px;
-    animation: moveInleft;
-    animation-duration: 4s;
-    animation-timing-function: ease-out;
-
-}
 
 .gallery-speaker {
     display: grid;
