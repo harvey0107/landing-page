@@ -45,7 +45,7 @@ header{
     background-size: contain;
     background-size: auto 100%;
     background-color: white;
-    display:grid;
+    display:flex;
     justify-content: flex-start;
     align-items: center;
     animation: moveInleft;
@@ -70,7 +70,7 @@ header{
 }
 
 .banner .content{
-    max-width: 440px;
+    max-width: 450px;
    
 }
 
@@ -208,13 +208,13 @@ header{
     width: 100%;
     height: 100%;
     min-height: 100vh;
-    padding: 0 70px;
+    padding: 0 50px;
     background-repeat: no-repeat;
     background-size: contain;
     background-size: auto 100%;
     background-color:white;
     display: flex;
-    justify-content:flex-end;
+    justify-content:flex-start;
     align-items: center;
     animation: moveInleft;
     animation-duration: 4s;
@@ -225,7 +225,7 @@ header{
 }
 
 .speaker .content-speaker{
-    max-width: 440px;
+    max-width: 550px;
    
 }
 
@@ -393,6 +393,23 @@ header{
     .banner .content p{
         font-size: 1em;
         color:white;
+    }
+
+    .speaker{
+        padding: 100px 50px;
+    }
+
+    .speaker .content-speaker h2{
+        text-transform: uppercase;
+        font-weight: 400;
+        font-size: 2em;
+        letter-spacing: 0.05em;
+        color:rgb(255,193,7);
+    }
+
+    .speaker .content-speaker p{
+        font-size: 1em;
+        color:rgb(52,69,92);
     }
 
     .slide{
