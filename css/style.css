@@ -448,7 +448,7 @@ padding-left: 40px;
     }
     
     .play{
-        color:rgb(255,193,7)
+        color:rgb(255,193,7);
     }
    
    video{
@@ -468,3 +468,22 @@ padding-left: 40px;
 
    }
 }
+
+.nav-link{
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.nav-link:hover{
+    color:rgb(255,193,7);
+}
+
+.play{
+    color:white;
+}
+
+.play:hover{
+    color:rgb(255,193,7);
+}
+
