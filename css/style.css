@@ -12,7 +12,7 @@
 }
 
 header{
-    position:absolute;
+    position:fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -21,7 +21,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 10px 100px;
-    z-index: 1000; 
+    z-index: 1000;
 }
 
  header .logo{
@@ -371,6 +371,9 @@ padding-left: 40px;
 
 @media (max-width: 769px)
 {
+
+    
+
     header{
         padding: 20px 50px;
         flex-direction: column;
@@ -472,8 +475,9 @@ padding-left: 40px;
 .nav-link{
     font-weight: 700;
     letter-spacing: 2px;
-    color: white;
+   
 }
+
 
 .nav-link:hover{
     color:rgb(255,193,7);
