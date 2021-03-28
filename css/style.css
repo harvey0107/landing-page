@@ -79,11 +79,12 @@ header{
 
 .banner .content .btn-group{
     display:flexbox;
+    margin-bottom: 50px;
 }
 
 
 .banner .content .btn-group .btn{
-    padding: 13px 13px;
+    padding: 10px 10px;
     font-size: 20px;
     border-radius: 10px
 }
@@ -172,7 +173,7 @@ header{
     display: block;
     justify-content: flex-start;
     align-items: center;
-    color:white;
+    color:rgb(255,193,7);
     text-transform: uppercase;
     font-weight: 500;
     text-decoration: none;
@@ -230,6 +231,13 @@ header{
 .speaker .content-speaker{
     max-width: 550px;
    
+}
+
+#try{
+margin-right:  0px;
+margin-top: 30px;
+margin-bottom: 10px;
+padding-left: 40px;
 }
 
 .speaker .content-speaker h2{
